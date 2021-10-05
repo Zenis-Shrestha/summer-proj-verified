@@ -1,0 +1,78 @@
+h5{
+    color: #D7DBDD ;
+    text-decoration:underline;
+    font-size: 25px;
+    text-align:  left;
+    margin-left: 50px
+}
+h6{
+    color: #D7DBDD ;
+    text-decoration:none;
+    font-size: 15px;
+    text-align:  left;
+    margin-left: 50px;
+    
+}
+.heading{
+    color: #D7DBDD ;
+    text-decoration:none;
+    font-size: 25px;
+    text-align:  left;
+    margin-left: 50px
+}
+.image_flex {
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding-left: 40px;
+}
+.image_flex>div{
+    background-color: rgb(22, 22, 22);
+    margin:20px;
+    padding: 10px;
+}
+.ready{
+    background-color:  rgb(22, 22, 22);
+    margin-left:100px;
+    margin-right: 100px;
+    height: 100px;
+}
+.trainer{
+    background-color: #000;
+    margin-left:100px;
+    margin-right: 100px;
+    height: 150px;
+    margin-bottom: 85px;
+}
+.trainer>h2,.trainer>p{
+    color: aqua;
+
+}
+p{
+    text-decoration:none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+ #book{
+   
+    text-decoration: none;
+    color: wheat;
+    border: 2px solid rgb(145, 120, 75);
+    box-sizing: border-box;
+    font-size: medium;
+    background-color:dimgray;
+} 
+.flexing>img{
+    width: 250px;
+    transition: width 0.6s;
+}
+.flexing>img:hover{
+    width:300px;
+    transition: 0.6s ease;
+}
+
+
+

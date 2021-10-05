@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+.mainboxx{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #000;
+}
+.infom{
+    margin-right: 20px;
+    width: 70%;
+}
+.infom p{
+    color: aqua;
+}
+.image>img{
+    width: auto;
+    height: 500px;
+
+}

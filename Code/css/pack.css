@@ -1,0 +1,68 @@
+*
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+	color: aqua;
+	text-align: center;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    color: #00ffff;
+}
+table, th, td {
+    border: 2px solid rgb(41, 42, 44);
+    padding: 15px 50px 15px 100px;
+	border-spacing: 0;
+  }
+
+.lower{
+	display: flex;
+	background-color: rgba(12, 12, 12, 0.925);
+	border: 5px solid #262b2b00;
+	color: antiquewhite;
+}
+.row1{
+	width: 33%;
+	list-style: none;
+	text-align: center;
+	
+	
+}
+.row2{
+	width: 33%;
+	text-align: center;
+	
+}
+.row3{
+	width: 33%;
+	text-align: center;
+	
+}
+li{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+	color:antiquewhite;
+}
+.offer{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+.packs{
+	margin-left:10%;
+	padding: 0;
+}
+.dashain_offer{
+	color: #00ffff;
+	margin-left: 40%;
+}
+

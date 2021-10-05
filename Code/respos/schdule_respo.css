@@ -1,0 +1,15 @@
+@media only screen and(max-width:1024px) {
+   .tables{
+       width: 60%;
+   }
+    
+}
+@media only screen and (max-width:660px){
+    table{
+        width: 40%;
+
+    }
+    td ,th {
+        width: 20%;
+    }
+}

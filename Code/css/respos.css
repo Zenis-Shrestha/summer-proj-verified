@@ -1,0 +1,56 @@
+@media only screen and(max-width:1024px) {
+    .ddp{
+        width: 60%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 660px) {
+    .main{
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .buttons{
+        margin-top: 45px;
+    }
+    .ddp ul{
+        display: none;
+        position: absolute;
+    }
+    .burger{
+        display: block;
+    }
+    .burger div{
+         width: 20px;
+         height: 2px;
+         background-color:  rgb(90, 87, 87);
+         margin: 5px;
+    }
+    .title h1{
+        color:white;
+	    font-size: 40px;
+        
+    }
+    .ddp{
+        right: 0px;
+        top: 8vh;
+    }
+    .logo img{
+        width: 80px;
+	    height: auto;
+    }
+    .info{
+        height: 17px;
+    }
+    .info p{
+        font-size: 15px;
+        margin-right: auto;
+    }
+    
+
+} 
+
+
