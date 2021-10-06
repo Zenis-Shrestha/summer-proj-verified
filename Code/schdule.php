@@ -1,7 +1,8 @@
-<?php session_start(); ?>
 <?php
-    include_once "header.php"
-?>
+include_once "header.php";
+session_start();
+  ?>
+
    
    <link rel="stylesheet" href="css/schdule.css">
    

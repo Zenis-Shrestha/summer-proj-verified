@@ -9,7 +9,7 @@ if(!isset($_SESSION['name'])) {
     $fback = $_POST['feedback']; 
     $name = $_SESSION['name'];
 
-    $sql = "INSERT INTO feedback (userId , users_feedback, fname) VALUES ('$uid','$fback','$name');";
+    $sql = "INSERT INTO feedback (usersId , feedback, name) VALUES ('$uid','$fback','$name');";
     $r = mysqli_query($conn, $sql);
 
     header('Location: indev.php?f=sucess');

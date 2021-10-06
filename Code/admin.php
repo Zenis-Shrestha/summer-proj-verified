@@ -117,9 +117,9 @@ echo"<table class='info_table' cellspacing='0'>
         <th>Feedback</th>
     </tr><tr>";
     while($rr = mysqli_fetch_assoc($r)) {
-        echo "<td>".$rr['userId']."</td>";
-        echo "<td>".$rr['fname']."</td>";
-        echo "<td>".$rr['users_feedback']."</td>";
+        echo "<td>".$rr['usersId']."</td>";
+        echo "<td>".$rr['name']."</td>";
+        echo "<td>".$rr['feedback']."</td>";
         echo "</tr><tr>";
     }
     echo "</tr></table>";
@@ -186,10 +186,6 @@ $rowz=mysqli_fetch_assoc($qqz);
     <div id="chart_div"></div>
 
 //here ends the piechart
-
-
-
-
 <?php
     include_once "footer.php";
 ?>

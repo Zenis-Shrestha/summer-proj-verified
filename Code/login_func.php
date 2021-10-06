@@ -5,7 +5,7 @@
     $UId=$_POST['UId'];
     $pwd=$_POST['Pass'];
 
-    $sql = "SELECT *  FROM users where usersemail ='$UId' and userspwd='$pwd';";
+    $sql = "SELECT *  FROM users where usersemail ='$UId'   ;";
     $r = mysqli_query($conn, $sql);
 
     if(mysqli_num_rows($r) < 1) {
@@ -14,6 +14,7 @@
         while($rr = mysqli_fetch_assoc($r)){
             // if(password_verify($pwd, $rr['userspwd'])){
                 $_SESSION['id'] = $rr['usersId'];
+                $_SESSION['email'] = $rr['usersemail'];
                 $_SESSION['name'] = $rr['usersfname'];
                 $_SESSION['class'] = $rr['userspclass'];
             
